@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "catagory": "misc",
+  "ingredients": [
+    {
+      "item": "learningforge:alexandrite_block"
+    }
+  ],
+  "result": {
+    "item" : "learningforge:alexandrite",
+    "count": 9
+  }
+}

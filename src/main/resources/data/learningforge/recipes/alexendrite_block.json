@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "catagory": "misc",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "learningforge:alexandrite"
+    }
+  },
+  "result": {
+    "item": "learningforge:alexandrite_block"
+  }
+}

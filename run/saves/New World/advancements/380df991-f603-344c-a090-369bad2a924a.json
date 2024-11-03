@@ -11,5 +11,23 @@
     },
     "done": false
   },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2024-11-03 22:58:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2024-11-03 22:58:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-11-03 22:58:10 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

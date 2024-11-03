@@ -1,0 +1,9 @@
+{
+  "item.learningforge.alexandrite": "Alexandrite",
+  "item.learningforge.raw_alexandrite": "Raw Alexandrite",
+
+  "block.learningforge.alexandrite_block" : "Alexandrite Block",
+  "block.learningforge.alexandrite_ore" : "Alexandrite Block",
+
+  "creativetab.course_tab": "Learning Forge"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "learningforge:block/alexandrite_block"
+    }
+  }
+}

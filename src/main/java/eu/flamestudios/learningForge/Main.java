@@ -1,6 +1,10 @@
 package eu.flamestudios.learningForge;
 
 import com.mojang.logging.LogUtils;
+import eu.flamestudios.learningForge.block.ModBlocks;
+import eu.flamestudios.learningForge.item.ModCreativeModeTabs;
+import eu.flamestudios.learningForge.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +32,9 @@ public class Main {
 
     public Main() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModCreativeModeTabs.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -51,6 +58,7 @@ public class Main {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+
 
     }
 
